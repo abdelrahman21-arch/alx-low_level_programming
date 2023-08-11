@@ -1,7 +1,7 @@
 /*
  * File: 6-size.c
  * Auth: Abdelrahman 
- */
+*/
 
 #include <stdio.h>
 
