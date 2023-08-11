@@ -1,7 +1,7 @@
 /*
  *  * File: 4-puts.c
  *   * Auth: Abdelrahman Sweilam  <boodyhussein12@gmail.com>
- *    */
+       */
 
 #include <stdio.h>
 
@@ -10,7 +10,7 @@
  *   *                puzzle, followed by a new line.
  *    *
  *     * Return: Always 0.
- *      */
+      */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
