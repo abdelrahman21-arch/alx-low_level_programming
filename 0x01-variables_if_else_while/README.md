@@ -1,0 +1,1 @@
+1-gets rand number and prints if its +ve or -ve or 0 
