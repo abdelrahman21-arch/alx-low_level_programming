@@ -1,20 +1,33 @@
 /*
- * File: 5-print_numbers.c
- * Auth: Sweilam
+ * File: 5-sign.c
+ * Auth: sweilam
  */
 
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0.
+ * print_sign - Prints the sign of a number.
+ * @n: The number of which the sign will be printed.
  *
- * Return: Always 0.
+ * Return: 1 if the number is greater than zero,
+ *         0 if the number is zero,
+ *         -1 if the number is less than zero.
  */
-int main(void)
+int print_sign(int n)
 {
-int num;
-for (num = 0; num < 10; num++)
-printf("%d", num);
-printf("\n");
+if (n > 0)
+{
+_putchar('+');
+ return (1);
+}
+else if (n == 0)
+{
+_putchar('0');
 return (0);
+}
+else
+{
+_putchar('-');
+return (-1);
+}
 }
