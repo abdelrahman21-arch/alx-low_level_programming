@@ -1,4 +1,4 @@
-\0;10;1c/*
+/*
  * File: 8-24_hours.c
  * Auth: Sweilam
  */
