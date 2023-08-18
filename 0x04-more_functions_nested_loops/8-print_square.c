@@ -3,7 +3,7 @@
  * Auth: Sweilam
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_square - Prints a square using the character #.
