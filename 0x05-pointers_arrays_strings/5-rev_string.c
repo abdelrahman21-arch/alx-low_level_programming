@@ -19,7 +19,7 @@ len++;
 for (index = len - 1; index >= len / 2; index--)
 
 {tmp = s[index];
- s[index] = s[len - index - 1];
+ [index] = s[len - index - 1];
  [len - index - 1] = tmp;
     }
 }
