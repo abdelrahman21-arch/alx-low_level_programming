@@ -17,9 +17,9 @@ char tmp;
 while (s[index++])
 len++;
 for (index = len - 1; index >= len / 2; index--)
-
-{tmp = s[index];
- [index] = s[len - index - 1];
- [len - index - 1] = tmp;
-    }
+{
+tmp = s[index];
+[index] = s[len - index - 1];
+[len - index - 1] = tmp;
+}  
 }
