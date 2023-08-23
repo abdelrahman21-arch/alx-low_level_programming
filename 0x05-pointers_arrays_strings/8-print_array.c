@@ -1,7 +1,8 @@
+/*
 *
 * File: 8-print_array.c
 * Auth: Sweilam
- */
+*/
 
 #include "main.h"
 #include <stdio.h>
