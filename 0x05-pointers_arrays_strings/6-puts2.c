@@ -3,7 +3,7 @@
  * Auth: Sweilam
  */
 
-#include "main.hh"
+#include "main.h"
 
 /**
  * puts2 - Prints one char out of two of a string.
@@ -14,9 +14,9 @@ void puts2(char *str)
 int index = 0, len = 0;
 
 while (str[index++])
- len++;
+len++;
 
 for (index = 0; index < len; index += 2)
 _putchar(str[index]);
- _putchar('\n');
+_putchar('\n');
 }
