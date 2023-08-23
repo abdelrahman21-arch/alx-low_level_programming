@@ -25,6 +25,7 @@ continue;
 }
 printf(", ");
  
-
-  printf("\n");
+!/bin/bash
+    
+ yyprintf("\n");
 }
