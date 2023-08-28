@@ -14,9 +14,9 @@
  *
  * Return: A pointer to the destination buffer @dest.
  */
-void *_memcpy(char *dest,  char *src, int n)
+void *_memcpy(char *dest,  char *src, unsigned int n)
 {
-	 int index;
+	 unsigned int index;
 	 char *destination = dest;
 	 char *source = src;
 
