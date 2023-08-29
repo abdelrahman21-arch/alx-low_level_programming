@@ -31,7 +31,7 @@ return (bytes);
 }
 
 }
-s++; 
+s++;
 }
 return (bytes);
 }
