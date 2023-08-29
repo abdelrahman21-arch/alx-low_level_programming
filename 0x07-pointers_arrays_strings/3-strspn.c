@@ -29,9 +29,9 @@ else if (accept[index + 1] == '\0')
 {
 return (bytes);
 }
-s++;
 
 }
+s++; 
 }
 return (bytes);
 }
