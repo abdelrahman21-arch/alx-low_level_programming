@@ -1,0 +1,1 @@
+1-first script compiles all .o files into the lbmy.a library
