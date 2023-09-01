@@ -7,11 +7,11 @@
 
 /**
  * _puts - Prints a string to stdout.
- * @str: The string to be printed.
+ * @c: The string to be printed.
  */
-void _puts(char *str)
+void _puts(char *c)
 {
-while (*str)
-_putchar(*str++);
+while (*c)
+_putchar(*c);
 _putchar('\n');
 }
