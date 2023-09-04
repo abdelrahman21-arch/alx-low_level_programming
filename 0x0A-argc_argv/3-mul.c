@@ -24,3 +24,5 @@ x = atoi (argv[1] );
 y = atoi (argv[2] );
 prod = x * y;
 printf ("%d\n", prod);
+exit (EXIT_SUCCESS);
+}
