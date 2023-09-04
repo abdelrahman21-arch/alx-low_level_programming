@@ -13,16 +13,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[] )
+int main(int argc, char *argv[])
 {
 int x, y, prod;
-if(argc != 3 )
+if (argc != 3)
 {
-exit (EXIT_FAILURE);
+exit(EXIT_FAILURE);
 }
-x = atoi (argv[1] );
-y = atoi (argv[2] );
-prod = x * y;
-printf ("%d\n", prod);
-exit (EXIT_SUCCESS);
+x = atoi(argv[1]);
+y = atoi(argv[2]);
+prod = x  *y;
+printf("%d\n", prod);
+exit(EXIT_SUCCESS);
 }
