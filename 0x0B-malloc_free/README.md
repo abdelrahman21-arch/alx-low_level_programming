@@ -1,0 +1,1 @@
+1-fills heap memory with some bytessss
