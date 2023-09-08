@@ -42,5 +42,5 @@ for (index = 0; s2[index] && index < n; index++)
 concat[len++] = s2[index];
 
 concat[len] = '\0';
-
+return (concat);
 }
