@@ -1,0 +1,1 @@
+1- is a function pointer that prints given names as parameters
