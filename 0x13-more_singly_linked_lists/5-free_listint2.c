@@ -16,6 +16,8 @@ listint_t *traverser;
 while (*head)
 {
 traverser = (*head)->next;
+if (head == NULL)
+return;
 free(*head);
 *head = traverser;
 }
