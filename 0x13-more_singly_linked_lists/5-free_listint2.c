@@ -21,5 +21,5 @@ return;
 free(*head);
 *head = traverser;
 }
-*head = NULL;
+head = NULL;
 }
