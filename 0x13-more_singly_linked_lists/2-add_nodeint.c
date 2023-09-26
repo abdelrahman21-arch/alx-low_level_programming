@@ -11,14 +11,14 @@
  * @head: A pointer to the address head of the list_t list.
  * @n: number to be added
  * Return: Address of the new element or NULL.
- * 
+ *
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 listint_t *new;
 new = malloc(sizeof(listint_t));
-if ( new == NULL)
+if (new == NULL)
 return (NULL);
 new->n = n;
 new->next = *head;
