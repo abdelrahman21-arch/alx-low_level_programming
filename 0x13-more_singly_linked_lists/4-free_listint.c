@@ -12,7 +12,7 @@
 
 void free_listint(listint_t *head)
 {
-listint_t traverser;
+listint_t *traverser;
 while (head)
 {
 traverser = head->next;
