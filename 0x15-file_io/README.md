@@ -1,0 +1,1 @@
+1- first script reads normal text files
